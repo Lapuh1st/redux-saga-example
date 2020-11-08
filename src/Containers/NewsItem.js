@@ -19,11 +19,8 @@ let NewsItem = ({ article }) =>
     <article style={articleStyle}>
       <div>
         <h1>{article.title}</h1>
-        <img style={imgStyle} src={article.urlToImage} alt="" />
-        <h4>{article.description}</h4>
-        <a href={article.url} target="javscript:void(0)">
-          READ MORE
-        </a>
+        <h4>{article.id}</h4>
+        
       </div>
     </article>
   ) : null;
